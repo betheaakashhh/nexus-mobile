@@ -9,7 +9,7 @@ import { getToken, deleteToken, deleteStoredUser } from './storage';
 // Replace with your deployed Vercel URL.
 // During development you can use your local IP:
 //   e.g. "http://192.168.1.5:3000"  (from `npx expo start` output)
-export const BASE_URL = 'https://your-nexus-app.vercel.app';
+export const BASE_URL = 'https://xprivateplus.vercel.app';
 
 // ── Types ───────────────────────────────────────────────────────────
 type Method = 'GET' | 'POST' | 'PATCH' | 'DELETE' | 'PUT';
